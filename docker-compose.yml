@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  wordle-duel:
+    build: .
+    image: wordle-duel:latest
+    container_name: wordle-duel
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+      # Word list is baked into the image at /app/words.txt by the Dockerfile.
+      # Override with WORDS_FILE if you want to mount your own list.

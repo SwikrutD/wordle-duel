@@ -1,0 +1,22 @@
+{
+  "name": "Wordle Duel",
+  "short_name": "Wordle Duel",
+  "description": "1v1 real-time Wordle. Pick your opponent's word, race to solve theirs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f0f",
+  "theme_color": "#0f0f0f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

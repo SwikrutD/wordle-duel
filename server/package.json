@@ -1,0 +1,14 @@
+{
+  "name": "wordle-duel-server",
+  "version": "1.0.0",
+  "description": "1v1 Wordle Duel - real-time multiplayer wordle",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "uuid": "^9.0.0"
+  }
+}
