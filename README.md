@@ -6,7 +6,7 @@ Both players compete simultaneously. The player to correctly guess their opponen
 
 ## Live Demo
 
-**Play Wordle Duel: **wordlevs.swikrut.com
+**Play Wordle Duel:** [wordlevs.swikrut.com](https://wordlevs.swikrut.com)
 
 ## How It Works
 
